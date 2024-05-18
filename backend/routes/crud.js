@@ -10,7 +10,6 @@ router.get('/', (req, res) => {
 
 
 router.post('/post', (req, res) => {
-
     const a = ""
     if(a == ""){
         res.json({"msg": "a should not be empty"})
